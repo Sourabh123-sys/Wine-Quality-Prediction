@@ -21,18 +21,8 @@ This project predicts the quality of wine based on its physicochemical propertie
 ---
 
 ## 📊 Model Performance
+![Classification Report](output/output1.png)
 
-
-precision    recall  f1-score   support
-
-3       0.00      0.00      0.00         2
-4       0.00      0.00      0.00        12
-5       0.76      0.85      0.80       138
-6       0.71      0.76      0.74       131
-7       0.78      0.50      0.61        36
-8       0.00      0.00      0.00         1
-
-Accuracy: 73%
 
 
 ✔ Best performance observed for wine quality **5 and 6**.
@@ -62,11 +52,12 @@ The Flask app allows users to enter wine parameters via a form and get instant p
 ### Example 1:
 
 **Prediction:** ✅ Good Quality Wine
+![Good Wine Prediction](output/output1.png)
 
 ### Example 2:
 
 **Prediction:** ❌ Bad Quality Wine
-
+![Bad Wine Prediction](output/output2.png)
 
 ## ⚙️ Technologies Used
 
@@ -100,8 +91,11 @@ Wine-Quality-Prediction/
 ## 🚀 How to Run the Project
 
 git clone https://github.com/Sourabh123-sys/Wine-Quality-Prediction.git
+
 cd Wine-Quality-Prediction
+
 pip install -r requirements.txt
+
 python app.py
 
 
@@ -111,7 +105,9 @@ Open browser: **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
 ## ✅ Final Outcome
 
 ✔ Successfully built an end-to-end **Machine Learning + Flask Web App**
+
 ✔ Model predicts wine quality effectively
+
 ✔ User-friendly interface for real-time predictions
 
 
