@@ -21,7 +21,7 @@ This project predicts the quality of wine based on its physicochemical propertie
 ---
 
 ## 📊 Model Performance
-![Classification Report](output/output1.png)
+![Classification Report](output/output3.png)
 
 
 
